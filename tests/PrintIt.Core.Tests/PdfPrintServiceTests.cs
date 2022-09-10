@@ -17,7 +17,7 @@ namespace PrintIt.Core.Tests
             using Stream stream = GetEmbeddedResourceStream("Pdfium.dummy.pdf");
 
             // Act
-            service.Print(stream, "Some printer name", numberOfCopies: 2);
+            service.Print(stream, "Some printer name", numberOfCopies: 2, paperSource: 260);
         }
 
         private static Stream GetEmbeddedResourceStream(string name)
