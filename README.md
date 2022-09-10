@@ -32,6 +32,7 @@ PdfFile      | :heavy_check_mark: | The PDF file to print (Content-type: applica
 PrinterPath  | :heavy_check_mark: | The UNC-path of the printer to send the PDF to
 PageRange    |                    | An optional page range string (f.e. "1-5", "1, 3", "1, 4-8", "2-", "-5")
 Copies       |                    | An optional number of copies (defaults to 1)
+PaperSource  |                    | An optional number of papersource (defaults to 0)
 
 ## PDFium
 
